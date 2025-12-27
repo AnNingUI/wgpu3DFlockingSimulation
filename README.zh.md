@@ -1,3 +1,8 @@
+<p align="center">
+    <a href="./README.md"> English </a> | <span> 简体中文 </span>
+</p>
+
+
 ## 简介
 在 终端 使用 wgpu 进行 3D [鸟群模拟](https://www.red3d.com/cwr/papers/1987/SIGGRAPH87.pdf) 
 本 项目 只在于快速实现，没有进行二次优化
@@ -7,6 +12,9 @@
 运行后 可按 `Esc` 或者 `Q` 退出
 
 ## 编译
-```
-git clone
+```bash
+git clone git@github.com:AnNingUI/wgpu3DFlockingSimulation.git
+# cargo run 可直接运行
+# cargo build 编译
+cargo build --release
 ```
